@@ -20,26 +20,30 @@ When the box is clicked make it double its size and when it is clicked again it 
 	<p>
 		When the box is clicked make it double its size and when it is clicked again it returns to its original size.
 	</p>
-	<div id="box" onclick=" doubleSize();"></div>
+	<div id="box" onclick=" doubleSize();">
+	</div>
 <script>
-var siz = 0 
-function doubleSize(){ 
-//alert(siz)
-    siz+=1
-    if (siz != 1){
-        siz=0
-    }
-    if (siz == 1) {
-    box.style.width="200px"
-    box.style.height="200px"
-    }
-    
-    else {
-    box.style.width="100px"
-    box.style.height="100px"
-    }
-   
-}
+	// siz is used for toggling back and forth
+	var siz = 0 
+	function doubleSize(){ 
+	//alert(siz)
+		siz+=1
+		
+		// if siz has already been clicked ie. if higher than 1 then reset
+		if (siz != 1){
+			siz=0
+		}
+		
+		if (siz == 1) {
+			box.style.width="200px"
+			box.style.height="200px"
+		}
+		
+		else {
+			box.style.width="100px"
+			box.style.height="100px"
+		}
+	}
 </script>
 </body>
 </html>
