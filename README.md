@@ -1,4 +1,4 @@
-Random-Code-Showcase
+Random Code Showcase
 ====================
 
 * JavascriptToggle.html - Javascript & CSS manipulation
