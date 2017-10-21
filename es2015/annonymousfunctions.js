@@ -1,3 +1,7 @@
+(function(){
+    console.log("heyloo there");
+})();
+
 var doggie = function(x,y){
     return x+y;
 }
