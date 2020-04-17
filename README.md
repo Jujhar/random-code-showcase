@@ -366,6 +366,8 @@ Object.entries
 sym.description
 
 # Resources
+https://github.com/vuejs/awesome-vue#components--libraries
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 Maksim Ivanov (YouTube)
