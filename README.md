@@ -368,6 +368,8 @@ sym.description
 # Resources
 https://github.com/vuejs/awesome-vue#components--libraries
 
+https://nicedoc.io/brillout/awesome-react-components
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 Maksim Ivanov (YouTube)
